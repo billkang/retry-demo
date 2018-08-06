@@ -1,0 +1,17 @@
+{
+  "name": "retry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node retry.js",
+    "promise": "node retry-promise.js",
+    "decorator": "babel-node retry-decorator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5"
+  }
+}
